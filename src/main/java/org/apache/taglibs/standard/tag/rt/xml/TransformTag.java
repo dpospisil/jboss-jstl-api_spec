@@ -79,6 +79,7 @@ public class TransformTag extends TransformSupport {
     // for tag attribute
     public void setXml(Object xml) throws JspTagException {
         this.xml = xml;
+        this.xmlSpecified = true;
     }
 
     // 'doc' replaces 'xml' as of JSTL 1.1
